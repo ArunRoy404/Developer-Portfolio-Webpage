@@ -147,3 +147,73 @@ nav{
     text-align: center;
     margin-bottom: 150px;
 }
+.target-card h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+.target-card > a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.target-card{
+    width: 290px;
+    height: 220px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.card3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.target{
+    display: flex;
+    justify-content: space-between;
+}
+.target-section > h2, .target-section > p{
+    text-align: center;
+}
+.target-section{
+    margin-bottom: 120px;
+}
+.target-2 > p, .target-2 > h2{
+    text-align: center;
+}
+
+.target-2-card h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+.target-2-card p{
+    margin: 8px 0px 24px;
+}
+.target-2-card a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.target-2-card{
+    padding: 40px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 24px;
+}
+.target-2{
+    margin-bottom: 25px;
+}
