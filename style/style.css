@@ -197,6 +197,14 @@ nav{
 .target-2-card p{
     margin: 8px 0px 24px;
 }
+.target-card p{
+    height: 60px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .target-2-card a{
     text-decoration: none;
     color: rgb(13, 19, 33);
