@@ -196,6 +196,10 @@ nav{
 }
 .target-2-card p{
     margin: 8px 0px 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .target-card p{
     height: 60px;
@@ -203,6 +207,7 @@ nav{
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .target-2-card a{
@@ -293,4 +298,79 @@ footer{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
     padding: 32px 260px;
+}
+
+@media screen and (max-width: 575px) {
+    main {
+        width: calc(100% - 40px);
+        margin: 0px auto;
+    }
+    nav,
+    .banner{
+        margin: 0px 20px;
+    }
+
+    nav > .btn,
+    footer h4{
+        font-size: 15px;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .web-dev-content h2{
+        font-size: 20px;
+    }
+    .web-dev,
+    footer{
+        padding: 10px 20px;
+    }
+    
+    .web-dev,
+    .target-card{
+        width: calc(100% - 40px);
+    }
+    .web-dev-detail{
+        width: 100%;
+    }
+    .web-dev-content{
+        padding: 0px;
+    }
+    .web-dev-content{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .video{
+        padding: 0px;
+    }
+    .inspiration{
+        margin-bottom: 80px;
+    }
+    .video iframe{
+        height: auto;
+    }
+    .target{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .target-card{
+        padding: 40px 20px;
+    }
+    .target-2-card,
+    .support form{
+        flex-direction: column;
+    }
+    .support{
+        padding: 40px 20px;
+    }
+    input[type = text]{
+        font-size: 12px;
+        width: 100%;
+    }
+    .icons img{
+        width: 50%;
+    }
+    .icons{
+        gap: 10px;
+    }
+    
 }
