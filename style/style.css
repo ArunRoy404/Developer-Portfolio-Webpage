@@ -374,3 +374,88 @@ footer{
     }
     
 }
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+    main {
+        width: calc(100% - 140px);
+        margin: 0px auto;
+    }
+    nav,
+    .banner{
+        margin: 0px 20px;
+        padding: 30px;
+    }
+
+    nav > .btn,
+    footer h4{
+        font-size: 15px;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .web-dev-content h2{
+        font-size: 20px;
+    }
+    .web-dev,
+    footer{
+        padding: 10px 20px;
+    }
+    .web-dev-container{
+        align-items: center;
+    }
+    .web-dev-detail{
+        width: 100%;
+    }
+    .web-dev-content{
+        padding: 50px;
+    }
+    .web-dev-content{
+        flex-direction: column-reverse;
+        width:auto;
+    }
+    .video{
+        padding: 0px;
+    }
+    .inspiration{
+        margin-bottom: 80px;
+    }
+    .video iframe{
+        height: 400px;
+    }
+    .target{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .target-card{
+        padding: 40px 20px;
+        margin-bottom: 50px;
+    }
+    .target-section{
+        margin-bottom: 50px;
+    }
+    .target-2-card,
+    .support form{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .target2-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+    .support{
+        padding: 40px 50px;
+    }
+    input[type = text]{
+        font-size: 15px;
+        width: 80%;
+    }
+    .icons img{
+        width: 50%;
+    }
+    .icons{
+        gap: 10px;
+    }
+    form{
+        align-items: center;
+    }
+}
